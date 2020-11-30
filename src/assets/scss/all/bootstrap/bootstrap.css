@@ -4,6 +4,19 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ /* Player ratio: 100 / (1280 / 720) */
+ .player-wrapper {
+  position: relative;
+  padding-top: 56.25% 
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

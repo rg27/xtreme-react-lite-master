@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Header from '../components/header/header.jsx';
-import Sidebar from '../components/sidebar/sidebar.jsx';
+// import Sidebar from '../components/sidebar/sidebar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import ThemeRoutes from '../routes/routing.jsx';
 
@@ -57,11 +57,11 @@ const Fulllayout = (props) => {
         <div
             id="main-wrapper"
             data-theme="light"
-            data-layout="vertical"
-            data-sidebartype="full"
-            data-sidebar-position="fixed"
-            data-header-position="fixed"
-            data-boxed-layout="full"
+            // data-layout="vertical"
+            // data-sidebartype="full"
+            // data-sidebar-position="fixed"
+            // data-header-position="fixed"
+            // data-boxed-layout="full"
         >
             {/*--------------------------------------------------------------------------------*/}
             {/* Header                                                                         */}
@@ -70,7 +70,7 @@ const Fulllayout = (props) => {
             {/*--------------------------------------------------------------------------------*/}
             {/* Sidebar                                                                        */}
             {/*--------------------------------------------------------------------------------*/}
-            <Sidebar {...props} routes={ThemeRoutes} />
+            {/* <Sidebar {...props} routes={ThemeRoutes} /> */}
             {/*--------------------------------------------------------------------------------*/}
             {/* Page Main-Content                                                              */}
             {/*--------------------------------------------------------------------------------*/}

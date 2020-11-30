@@ -39,7 +39,18 @@ const Starter = () => {
                     {/*Card-1*/}
                     {/*--------------------------------------------------------------------------------*/}
                     <Card>
-                    <ReactPlayer width="325px"  url='https://www.youtube.com/watch?v=21X5lGlDOfg' />
+                        <div className="campaign ct-charts">
+                            <div className=''>
+                                <ReactPlayer
+                                // className='react-player'
+                                url='https://www.youtube.com/watch?v=NMre6IAAAiU'
+                                width='100%'
+                                height='350px'
+                                playing="true"
+                                controls="true"
+                                />
+                            </div>
+                        </div>
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
                             <CardSubtitle>Card subtitle</CardSubtitle>
@@ -53,7 +64,19 @@ const Starter = () => {
                     {/*Card-1*/}
                     {/*--------------------------------------------------------------------------------*/}
                     <Card>
-                    <ReactPlayer width="325px"  url='https://www.youtube.com/watch?v=21X5lGlDOfg' />
+                        <div className="campaign ct-charts">
+                            <div className=''>
+                                <ReactPlayer
+                                // className='react-player'
+                                url='https://www.youtube.com/watch?v=NMre6IAAAiU'
+                                width='100%'
+                                height='350px'
+                                playing="true"
+                                controls="true"
+                                />
+                            </div>
+                        </div>
+
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
                             <CardSubtitle>Card subtitle</CardSubtitle>
@@ -67,7 +90,18 @@ const Starter = () => {
                     {/*Card-1*/}
                     {/*--------------------------------------------------------------------------------*/}
                     <Card>
-                    <ReactPlayer width="325px"  url='https://www.youtube.com/watch?v=21X5lGlDOfg' />
+                        <div className="campaign ct-charts">
+                            <div className=''>
+                                <ReactPlayer
+                                // className='react-player'
+                                url='https://www.youtube.com/watch?v=NMre6IAAAiU'
+                                width='100%'
+                                height='350px'
+                                playing="true"
+                                controls="true"
+                                />
+                            </div>
+                        </div>
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
                             <CardSubtitle>Card subtitle</CardSubtitle>

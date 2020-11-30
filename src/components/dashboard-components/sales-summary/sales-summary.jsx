@@ -34,6 +34,7 @@ let lineData = {
 
 const SalesSummary = () => {
     return (
+        
         <Card>
             <CardBody>
                 <div className="d-flex align-items-center">
@@ -47,9 +48,16 @@ const SalesSummary = () => {
                 <Row>
                     <Col lg="12">
                         <div className="campaign ct-charts">
-                            <div className="chart-wrapper" >
-                            <ReactPlayer playing="true"  url='https://www.youtube.com/watch?v=NMre6IAAAiU' />
-                            </div>
+                        <div className=''>
+                            <ReactPlayer
+                            // className='react-player'
+                            url='https://www.youtube.com/watch?v=NMre6IAAAiU'
+                            width='100%'
+                            height='350px'
+                            playing="true"
+                            controls="true"
+                            />
+                        </div>
                         </div>
                     </Col>
                 </Row>
@@ -68,7 +76,14 @@ const SalesSummary = () => {
                     <Col lg="12">
                         <div className="campaign ct-charts">
                             <div className="chart-wrapper" >
-                            <ReactPlayer playing="true"  url='https://www.youtube.com/watch?v=NMre6IAAAiU' />
+                            <ReactPlayer 
+                                playing="true"  
+                                url='https://www.youtube.com/watch?v=NMre6IAAAiU' 
+                                width='100%'
+                                height='350px'
+                                playing="true"
+                                controls="true"   
+                            />
                             </div>
                         </div>
                     </Col>

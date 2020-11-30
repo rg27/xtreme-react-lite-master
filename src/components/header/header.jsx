@@ -33,7 +33,7 @@ const Header = () => {
 
     return (
         <header className="topbar navbarbg" data-navbarbg="skin1">
-            <Navbar className="top-navbar" dark expand="md">
+            <Navbar className="top-navbar" style={{backgroundColor: 'green'}} dark expand="md">
                 <div className="navbar-header" id="logobg" data-logobg="skin6">
                     {/*--------------------------------------------------------------------------------*/}
                     {/* Logos Or Icon will be goes here for Light Layout && Dark Layout                */}
@@ -64,9 +64,9 @@ const Header = () => {
                     </button>
                 </div>
                 <Collapse className="navbarbg" navbar data-navbarbg="skin1" >
-                    <Nav className="ml-auto float-right" navbar>
+                    <Nav  className="ml-auto float-right" navbar>
                         <NavItem>
-                            <a href="link" className="btn btn-danger mr-2" style={{ marginTop: '15px' }}>OP360 Year End Event</a>
+                            <a href="link" className="btn btn-danger mr-2" style={{ marginTop: '15px'    }}>OP360 Year End Event</a>
                         </NavItem>
                         {/*--------------------------------------------------------------------------------*/}
                         {/* Start Profile Dropdown                                                         */}
